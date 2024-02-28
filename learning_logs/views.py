@@ -86,7 +86,7 @@ def edit_entry(request, entry_id):
     """Edit an existing entry."""
     entry = Entry.objects.get(id=entry_id)
     topic = entry.topic
-    check_topic_owner()
+    check_topic_owner(topic, request)
     
     if request.method != 'POST':
         # Initial request; pre-fill form with the current entry.
