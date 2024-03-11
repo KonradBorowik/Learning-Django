@@ -8,7 +8,7 @@ Simple blog-like application. You can create your user profile and store informa
 1. Clone repository
 
 ```bash
-git clone 
+git clone https://github.com/KonradBorowik/Learning-Django.git
 ```
 
 2. Make sure Docker is installed on your system (else install [Docker](https://docs.docker.com/engine/install/))
